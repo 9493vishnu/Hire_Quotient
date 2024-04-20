@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hire_Quotient/static/css/main.18ed2e7b.css",
+    "main.js": "/Hire_Quotient/static/js/main.7b66ea95.js",
+    "static/js/453.c2fdc96a.chunk.js": "/Hire_Quotient/static/js/453.c2fdc96a.chunk.js",
+    "index.html": "/Hire_Quotient/index.html",
+    "main.18ed2e7b.css.map": "/Hire_Quotient/static/css/main.18ed2e7b.css.map",
+    "main.7b66ea95.js.map": "/Hire_Quotient/static/js/main.7b66ea95.js.map",
+    "453.c2fdc96a.chunk.js.map": "/Hire_Quotient/static/js/453.c2fdc96a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ed2e7b.css",
+    "static/js/main.7b66ea95.js"
+  ]
+}
