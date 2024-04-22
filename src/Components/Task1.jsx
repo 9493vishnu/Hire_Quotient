@@ -66,12 +66,13 @@ if (!group) {
       {Object.keys(group).map((asset,idx)=>(
         <div key  ={idx}>
           <div className="text">
-            <button type="submit" onClick={() => handleClick(asset)}>{asset}</button>
+            <button type="submit" onClick={() => handleClick(asset)}>{asset}({group[asset].length})</button>
            </div>
             {drop_d === asset && (
         <ul>
             <div className="table-wrapper">
             <table class="fl-table">
+            
                 <tr>
                     <th>Name of the Holding</th>
                     <th>Ticker</th>
@@ -80,6 +81,7 @@ if (!group) {
                     <th>Latest Change Percentage</th>
                     <th>Market Value in Base CCY</th>
                 </tr>
+            
            { group[asset].map((value,idx) => (
                <tr>
                 
